@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Angelo Acera | Personal CV</title>
+  <meta name="description" content="Personal CV website of Michael Angelo Acera, a Bachelor of Science in Information Technology student interested in full-stack development, mobile applications, artificial intelligence, computer vision, and UI/UX.">
+  <meta name="author" content="Michael Angelo Acera">
+  <meta name="theme-color" content="#080E1A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading screen (hidden by script.js) -->
+  <div class="loader" id="loader" aria-hidden="true"><span>MA</span><i></i></div>
+
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo">Michael Angelo <span>Acera</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-cv"><a class="btn btn-primary btn-sm" href="Michael-Angelo-Acera-CV.pdf" download>Download CV</a></li>
+      </ul>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle light/dark theme">◐</button>
+      <button class="icon-btn hamburger" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow hero-in">Hello, I'm</p>
+          <h1 class="hero-in">Michael Angelo <span class="grad">Acera</span></h1>
+          <p class="hero-title hero-in">BSIT Student | Aspiring Full-Stack Developer | AI &amp; Mobile Developer</p>
+          <p class="lead hero-in">I'm a Bachelor of Science in Information Technology student interested in software development, full-stack development, mobile applications, artificial intelligence, computer vision, UI/UX, and modern technologies. I learn by building practical projects.</p>
+          <div class="btn-row hero-in">
+            <a class="btn btn-primary" href="Michael-Angelo-Acera-CV.pdf" target="_blank" rel="noopener noreferrer">View My CV</a>
+            <a class="btn btn-outline" href="Michael-Angelo-Acera-CV.pdf" download>Download CV</a>
+            <a class="btn btn-outline" href="#projects">View Projects</a>
+          </div>
+          <div class="socials hero-in" data-socials></div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Portrait of Michael Angelo Acera" width="520" height="520">
+          </div>
+          <span class="badge b1">Flutter</span><span class="badge b2">Python</span><span class="badge b3">YOLO</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER OBJECTIVE -->
+    <section class="section alt" id="objective">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Career Objective</p>
+        <p class="lead big">Seeking internship, entry-level, freelance, and collaborative opportunities where I can apply my IT knowledge, gain real-world experience, contribute to meaningful projects, and continue developing my technical and professional skills.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">About</p><h2>About Me</h2></div>
+        <div class="two-col">
+          <div class="reveal fade-right">
+            <p class="lead">I'm a BSIT student at Davao del Norte State College with a growing interest in building practical software. I have explored web, mobile, AI-related, and database-driven projects, and I enjoy turning ideas into working solutions.</p>
+            <p class="lead">I'm still building my professional experience, and I'm motivated to learn from real-world projects, improve my communication, and grow as a dependable technology professional.</p>
+            <a class="btn btn-outline" href="Michael-Angelo-Acera-CV.pdf" download>Download CV (PDF)</a>
+          </div>
+          <dl class="card info reveal fade-left">
+            <div><dt>Full Name</dt><dd>Michael Angelo Acera</dd></div>
+            <div><dt>Location</dt><dd>Nanyo, Panabo City, Davao del Norte, Philippines</dd></div>
+            <div><dt>Degree</dt><dd>Bachelor of Science in Information Technology</dd></div>
+            <div><dt>School</dt><dd>Davao del Norte State College</dd></div>
+            <div><dt>Status</dt><dd>Currently Studying</dd></div>
+            <div><dt>Career Interests</dt><dd>Full-Stack Development, Mobile Development, AI, Computer Vision, UI/UX</dd></div>
+            <div><dt>Email</dt><dd data-email>michaelangeloacera13@gmail.com</dd></div>
+            <div><dt>Phone</dt><dd data-phone>09938533470</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">Education</p><h2>Academic Background</h2></div>
+        <article class="card edu reveal">
+          <span class="tag">Currently Studying</span>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p class="accent">Davao del Norte State College</p>
+          <!-- Add your current year level here if you want (e.g. "3rd Year") -->
+          <p class="muted">Areas of study:</p>
+          <div class="chips">
+            <span>Programming</span><span>Software Development</span><span>Web Development</span><span>Databases</span><span>Networking</span><span>Mobile Development</span><span>Artificial Intelligence</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS (rendered by script.js from the SKILLS list) -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">Skills</p><h2>Technical Skills</h2>
+          <p class="muted">A snapshot of the tools and technologies I have worked with so far.</p></div>
+        <div class="grid grid-4" id="skillsGrid"></div>
+        <div class="head reveal sub"><h3>Professional Skills</h3></div>
+        <div class="grid grid-6" id="softGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (rendered by script.js from the PROJECTS list) -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">Projects</p><h2>Selected Projects</h2></div>
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="web">Web</button>
+          <button class="chip" data-filter="mobile">Mobile</button>
+          <button class="chip" data-filter="ai">AI</button>
+          <button class="chip" data-filter="uiux">UI/UX</button>
+        </div>
+        <div class="grid grid-3" id="projectGrid"></div>
+        <div class="card github reveal">
+          <div><h3>GitHub Profile</h3><p class="muted">Explore my repositories and development projects on GitHub.</p></div>
+          <a class="btn btn-primary" data-link="github" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container narrow">
+        <div class="head reveal"><p class="eyebrow">Experience</p><h2>Work Experience</h2></div>
+        <ol class="timeline">
+          <li class="reveal"><h3>Cash for Work — Davao del Norte State College</h3><p class="accent mono">500 Hours | 2025</p>
+            <p class="muted">Completed 500 hours under the Cash for Work program, gaining practical experience in workplace responsibilities, documentation, assigned tasks, and office-related activities.</p></li>
+          <li class="reveal"><h3>PESO / SPES Assistant</h3><p class="accent mono">Public Employment Service Office</p>
+            <p class="muted">Gained workplace experience involving administrative support, documentation, file organization, and other assigned responsibilities.</p></li>
+          <li class="reveal"><h3>PC Work — Panabo</h3><p class="accent mono">Work Immersion</p>
+            <p class="muted">Gained hands-on experience with computer-related and printing tasks including document printing, basic computer work, Photoshop layout work, and production-related activities.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES (rendered by script.js from the CERTS list) -->
+    <section class="section alt" id="certificates">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">Certificates</p><h2>Certifications &amp; Training</h2></div>
+        <div class="grid grid-4" id="certGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="head reveal"><p class="eyebrow">Contact</p><h2>Let's Work Together</h2></div>
+        <div class="two-col">
+          <div class="reveal fade-right">
+            <p class="lead">I'm open to internship opportunities, entry-level opportunities, freelance projects, collaboration, and chances to gain professional experience.</p>
+            <ul class="contact-list">
+              <li><span>Email</span><b data-email>michaelangeloacera13@gmail.com</b></li>
+              <li><span>Location</span><b>Nanyo, Panabo City, Davao del Norte, Philippines</b></li>
+              <li><span>GitHub</span><a data-link="github" target="_blank" rel="noopener noreferrer">github.com/aceramichaelangelo</a></li>
+              <li><span>LinkedIn</span><a data-link="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            </ul>
+          </div>
+          <form class="card form reveal fade-left" id="contactForm" novalidate>
+            <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required><small class="err" id="nameErr"></small></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><small class="err" id="emailErr"></small></div>
+            <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" required><small class="err" id="subjectErr"></small></div>
+            <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><small class="err" id="messageErr"></small></div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="muted note" id="formNote">This form opens your email app with the message pre-filled. This site has no backend, so nothing is stored or sent automatically.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot-grid">
+      <div><b>Michael Angelo <span class="accent">Acera</span></b><p class="muted">BSIT Student | Aspiring Full-Stack Developer | AI &amp; Mobile Developer</p></div>
+      <div class="socials" data-socials></div>
+    </div>
+    <div class="container foot-bottom"><p class="muted">© 2026 Michael Angelo Acera. All rights reserved.</p><a href="#home">↑ Back to Top</a></div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <!-- Certificate modal -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-box">
+      <button class="icon-btn modal-close" id="modalClose" aria-label="Close certificate">✕</button>
+      <h3 id="modalTitle"></h3>
+      <img id="modalImg" alt="">
+      <p class="muted" id="modalMissing" hidden>Certificate image not added yet (see CERTIFICATE_IMAGE in script.js).</p>
+    </div>
+  </div>
+
+  <!-- CV Assistant chatbot (keyword based, not real AI) -->
+  <button class="chat-fab" id="chatFab" aria-label="Open CV assistant" aria-expanded="false">💬</button>
+  <section class="chat" id="chat" aria-label="CV Assistant" hidden>
+    <div class="chat-head"><b>CV Assistant</b><button class="icon-btn" id="chatClose" aria-label="Close chat">✕</button></div>
+    <div class="chat-body" id="chatBody" aria-live="polite"></div>
+    <div class="chat-quick" id="chatQuick"></div>
+    <form class="chat-form" id="chatForm"><input id="chatInput" type="text" placeholder="Ask about Michael..." aria-label="Type your question" autocomplete="off"><button class="btn btn-primary btn-sm" type="submit">Send</button></form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
