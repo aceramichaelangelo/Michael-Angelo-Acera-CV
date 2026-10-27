@@ -27,10 +27,10 @@ Bachelor of Science in Information Technology
 Davao del Norte State College
 
 ## Live Website
-[Vercel URL will be added here]
+(https://michael-angelo-acera-cv.vercel.app/)
 
 ## GitHub Repository
-[GitHub repository URL will be added here]
+(https://github.com/aceramichaelangelo/Michael-Angelo-Acera-CV)
 
 ## Deployment
 Deployed as a static site on Vercel (no build step; `index.html` is at the project root).
